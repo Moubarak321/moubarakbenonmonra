@@ -48,8 +48,9 @@ export const Container = styled.section`
   .about-image{
     text-align: center;
    img{
+    height:450px;
      margin-top: 2rem;
-     width: 75%;
+     width: 60%;
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{
