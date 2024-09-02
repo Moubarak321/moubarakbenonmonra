@@ -2,6 +2,7 @@ import { Container } from "./styles";
 import githubIcon from "../../assets/github.svg"
 import DownloadApp from '../../assets/download.png'
 import externalLink from "../../assets/external-link.svg"
+import mbk from '../../assets/mbk.png'
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -11,9 +12,9 @@ export function Project() {
       <h2>My Projects</h2>
       <div className="projects">
 
-  
 
-      <ScrollAnimation animateIn="flipInX">
+
+        <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -26,7 +27,7 @@ export function Project() {
             <div className="body">
               <h3>PowerForecast</h3>
               <p>
-              Prévision instantanée de la consommation énergétique afin d'optimiser les réseaux de distribution et les adopter les meilleurs stratégies de stockage au Bénin.              </p>
+                Prévision instantanée de la consommation énergétique afin d'optimiser les réseaux de distribution et les adopter les meilleurs stratégies de stockage au Bénin.              </p>
             </div>
             <footer>
               <ul className="tech-list">
@@ -51,11 +52,11 @@ export function Project() {
             <div className="body">
               <h3>DiabetForecast</h3>
               <p>
-Application d'évaluation du risque de diabete conçue pour réduire la prévalence du diabete et détecter les cas dormants ou asymptômatiques              </p>
+                Application d'évaluation du risque de diabete conçue pour réduire la prévalence du diabete et détecter les cas dormants ou asymptômatiques              </p>
             </div>
             <footer>
               <ul className="tech-list">
-              <li>Python</li>
+                <li>Python</li>
 
                 <li>DataScience</li>
                 <li>MachineLearning</li>
@@ -77,7 +78,7 @@ Application d'évaluation du risque de diabete conçue pour réduire la prévale
             <div className="body">
               <h3>Allogroup</h3>
               <p>
-              Application d'intermédiation entre client, marchand et livreur. Faites toutes vos courses en toute sécurité
+                Application d'intermédiation entre client, marchand et livreur. Faites toutes vos courses en toute sécurité
               </p>
             </div>
             <footer>
@@ -211,9 +212,37 @@ Application d'évaluation du risque de diabete conçue pour réduire la prévale
             </footer>
           </div>
         </ScrollAnimation> */}
-       
+
 
       </div>
+      <h2>Certifications</h2>
+      <div className="projects">
+      <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            {/* <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://diabetforecast.streamlit.app/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header> */}
+            <div className="body">
+              <h3>DiabetForecast</h3>
+              <p>
+              <img src={mbk} alt="Description de votre image" />            </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Python</li>
+
+                <li>DataScience</li>
+                <li>MachineLearning</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+        </div>
     </Container>
   );
 }
