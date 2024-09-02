@@ -93,7 +93,106 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://empreintescom.pythonanywhere.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>EmpreintesCom</h3>
+              <p>
+              Showcase website for a furniture manufacturing and illuminated signs company.  </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Django</li>
+                <li>Bootstrap</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://garagemaurice.pythonanywhere.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>GarageMaurice</h3>
+              <p>
+              Mechanics-Vehicle Sales-Transportation and Handling-Large Construction Projects</p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+              <li>Django</li>
+              <li>Bootstrap</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+        
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://cnib.pythonanywhere.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>CNIB</h3>
+              <p>
+              International Digital Center of Benin .</p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+              <li>Django</li>
+              <li>Bootstrap</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+        
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://beninairline.pythonanywhere.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Benin Airline</h3>
+              <p>
+              Showcase website for Benin Airlines (suspended)</p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+              <li>Django</li>
+              <li>Bootstrap</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
       </div>
+
+
+
+
+
 
       <h2>Certifications</h2>
       <div className="projects">
