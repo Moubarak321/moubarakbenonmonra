@@ -18,6 +18,7 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import py from "../../assets/py2.svg";
 
 export function Main() {
   return (
@@ -182,11 +183,11 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
+                {
+                  "src": py,
+                  "width": 20,
+                  "height": 20
+                },
                 {
                   "src": nodeIcon,
                   "width": 20,
