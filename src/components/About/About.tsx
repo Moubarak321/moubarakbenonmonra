@@ -23,17 +23,15 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          Hi there! I'm Moubarak, Data Scientist Jr and website developer with a passion for creating custom online experiences for my clients. With a skill set including HTML, CSS, JavaScript,Django and React, I have the tools to bring any website vision to life.
-          </p>
+          Hi there! I'm a Django developer with a passion for building dynamic web and mobile applications using Flutter and Next.js. My expertise lies in creating seamless, user-friendly digital experiences that meet the unique needs of my clients.          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress , making it easy for my clients to take control of their own websites and keep them up to date.Additionally, I have expertise in machine learning and data science, allowing me to leverage advanced technologies for enhancing user experiences and optimizing website performance.</p>
+          Beyond development, I’m deeply interested in machine learning, deep learning, and AI. With hands-on experience in data science, I combine advanced AI techniques with robust development skills to create intelligent solutions, whether it’s enhancing applications with predictive analytics or developing AI-powered features.          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-          So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams and ai projects to reality together!</p>
-        </ScrollAnimation>
+          If you're looking to develop a custom app or explore AI-driven projects, let’s connect and turn your vision into reality!    </p>     </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
