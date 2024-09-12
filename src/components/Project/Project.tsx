@@ -200,9 +200,9 @@ export function Project() {
           {/* Ajoute le style flexbox au conteneur parent */}
           <div className="project" style={{ display: 'flex', justifyContent: 'space-between', gap: '10px' }}>
             <div className="body" style={{ flex: 1, textAlign: 'center' }}>
-              <h3>DiabetForecast</h3>
+              <h3>Machine learning with Py</h3>
               <p>
-                <img src={ml} alt="Description de votre image" style={{ width:430}}/>
+                <img src={ml} alt="Description de votre image" style={{ width:400}}/>
               </p>
             </div>
             
@@ -212,9 +212,9 @@ export function Project() {
           {/* Ajoute le style flexbox au conteneur parent */}
           <div className="project" style={{ display: 'flex', justifyContent: 'space-between', gap: '10px' }}>
             <div className="body" style={{ flex: 1, textAlign: 'center' }}>
-              <h3>DiabetForecast</h3>
+              <h3>Data Science Methods</h3>
               <p>
-                <img src={ds} alt="Description de votre image" style={{ width:430}}/>
+                <img src={ds} alt="Description de votre image" style={{ width:400}}/>
               </p>
             </div>
             
@@ -224,9 +224,9 @@ export function Project() {
           {/* Ajoute le style flexbox au conteneur parent */}
           <div className="project" style={{ display: 'flex', justifyContent: 'space-between', gap: '10px' }}>
             <div className="body" style={{ flex: 1, textAlign: 'center' }}>
-              <h3>DiabetForecast</h3>
+              <h3>Django web app</h3>
               <p>
-                <img src={djg} alt="Description de votre image" style={{ width:430}}/>
+                <img src={djg} alt="Description de votre image" style={{ width:400}}/>
               </p>
             </div>
             
@@ -236,9 +236,9 @@ export function Project() {
           {/* Ajoute le style flexbox au conteneur parent */}
           <div className="project" style={{ display: 'flex', justifyContent: 'space-between', gap: '10px' }}>
             <div className="body" style={{ flex: 1, textAlign: 'center' }}>
-              <h3>DiabetForecast</h3>
+              <h3>Django web technologies</h3>
               <p>
-                <img src={djgg} alt="Description de votre image" style={{ width:430}}/>
+                <img src={djgg} alt="Description de votre image" style={{ width:400}}/>
               </p>
             </div>
             
