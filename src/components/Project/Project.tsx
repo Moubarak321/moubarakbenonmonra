@@ -41,6 +41,61 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://lablab.ai/event/benin-multimodal-ai-hackathon/horus/lexica" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>LEXICA - Benin Multimodal AI Hackathon</h3>
+              <p>
+                Rendre les musées béninois accessibles à tous en transformant les textes en langues locales en images expressives. Il crée un pont entre langues, cultures et générations pour une immersion culturelle sans barrières.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>NLP</li>
+                <li>Transformers</li>
+                <li>LLMs</li>
+                {/* <li>MachineLearning</li> */}
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://zindi.africa/users/Gandalf012" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Malawi Public Health Systems LLM Challenge</h3>
+              <p>
+The purpose of this challenge is to build an AI assistant capable of providing knowledge contained in the Malawi Technical Guidelines for Integrated Disease Surveillance and Response (TGs for IDSR).   The solution will contribute to an interactive and adaptive training resource for health professionals to enhance their skills, receive real-time guidance on data collection, and stay updated on evolving practices.
+            </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>LLMs</li>
+                <li>NLP</li>
+                <li>Python</li>
+                {/* <li>MachineLearning</li> */}
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
