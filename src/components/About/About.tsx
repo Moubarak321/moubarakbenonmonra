@@ -98,9 +98,14 @@ export function About() {
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={mbk} alt="Moubarak BENON MONRA" />
-        </ScrollAnimation>
+       <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
+  <img 
+    src={mbk} 
+    alt="Moubarak BENON MONRA" 
+    style={{ borderRadius: "2.5rem" }} 
+  />
+</ScrollAnimation>
+
       </div>
     </Container>
   )
