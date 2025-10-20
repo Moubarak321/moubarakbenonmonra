@@ -1,5 +1,4 @@
 import { Container } from "./styles";
-import mbk from "../../assets/image3.png";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -12,6 +11,7 @@ import py from "../../assets/py2.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import mbk from "../../assets/mbk.png";
 
 
 export function About() {
@@ -102,7 +102,7 @@ export function About() {
   <img 
     src={mbk} 
     alt="Moubarak BENON MONRA" 
-    style={{ borderRadius: "2.5rem" }} 
+    style={{ borderRadius: "2.5rem", width: "50%" }} 
   />
 </ScrollAnimation>
 
